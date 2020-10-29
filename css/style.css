@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.TOPO {
+    width: 100%;
+    height: 60px;
+    background-color: #F9003D;
+}
+
+.TOPO nav {
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.TOPO nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 17px 50px;
+}
+
+.TOPO nav a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+.TOPO nav ul {
+    width: 600px;
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BANNER {
+    width: 100%;
+    height: 740px;
+    background-image: url(../img/imagem-fundo-banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.CONTENT {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.BANNER_TEXT {
+    width: 570px;
+    height: 500px;
+}
+
+.BANNER_TEXT h1 {
+    font-size: 85px;
+    font-family:  'Bebas Neue', cursive;
+    color: white;
+}
+
+.BANNER_TEXT p {
+    font-size: 45px;
+    font-family: 'Courier Prime', monospace;
+    color: #F9003D;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.BANNER_TEXT span {
+    margin-left: 10px;
+}
+
+.LINE {
+    width: 80%;
+    border:solid 1px #F9003D;
+}
