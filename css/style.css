@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Open+Sans&display=swap');
 
 * {
     margin: 0%;
@@ -98,7 +98,6 @@
 .SOBRE {
     width: 1200px;
     height: 100%;
-    background-color: rgba(204, 204, 204, 0.441);
     margin: 0 auto;
 }
 
@@ -106,6 +105,8 @@
     font-size: 64px;
     color: #F9003D;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .SOBRE_CONTENT {
@@ -118,13 +119,16 @@
 }
 
 .TEXTO_SOBRE {
-    width: 450px;
+    width: 600px;
 }
 
 .TEXTO_SOBRE h3 {
     font-size: 55px;
     font-family: 'Bebas Neue', cursive;
     color: #FFAF00;
+    line-height: 74px;
+    margin-top: -33px;
+    margin-bottom: 30px;
 }
 
 .TAG {
@@ -132,4 +136,26 @@
     font-size: 24px;
     color: white;
     text-transform: uppercase;
+}
+
+.TEXTO_SOBRE p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+.BK_INFO {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/imagem-fundo-info.jpg);
+    background-size: cover;
+}
+
+.INFO {
+    width: 1200px;
+    height: 100%;
+    background-color: tomato;
+    margin: 0 auto;
+    font-family: 'Courier Prime', monospace;
 }
