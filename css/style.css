@@ -91,7 +91,7 @@
 
 .BK_SOBRE {
     width: 100%;
-    height: 820px;
+    height: 720px;
     background-color: #080324;
 }
 
@@ -155,7 +155,24 @@
 .INFO {
     width: 1200px;
     height: 100%;
-    background-color: tomato;
     margin: 0 auto;
     font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.INFO_CARD {
+    color: white;
+    font-size: 24px;
+}
+
+.INFO_CARD p {
+    width: 270px;
+    font-size: 28px;
+    color: #A259F7;
+    border: solid 1px #A259F7;
+    text-align: center;
+    padding: 1em;
 }
