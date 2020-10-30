@@ -54,6 +54,9 @@
     width: 1200px;
     height: 100%;
     margin: auto;
+}
+
+.ALINHAMENTO-INFERIOR{
     display: flex;
     align-items: flex-end;
 }
@@ -175,4 +178,62 @@
     border: solid 1px #A259F7;
     text-align: center;
     padding: 1em;
+}
+
+.ENDERECO {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/imagem-fundo-ranking.jpg);
+    background-size: cover;
+}
+
+.ENDERECO h2 {
+    font-size: 64px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFAF00;
+}
+
+.TEXT-ENDERECO {
+    width: 900px;
+    height: 220px;
+    background-color: #010010;
+    border:solid 2px #340565;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.TEXT-ENDERECO p {
+    color: #A259F7;
+    font-size: 24px;
+    margin-left: 100px;
+    font-family: 'Courier Prime', monospace;
+}
+
+.ALINHANDO-CENTRO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TEXT-ENDERECO img {
+    position: absolute;
+    top: -60px;
+    left: 550px;
+}
+
+.RODAPE {
+    width: 100%;
+    height: 80px;
+    background-color: #F9003D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.WHATSAPP {
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
